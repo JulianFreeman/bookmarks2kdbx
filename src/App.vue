@@ -206,7 +206,7 @@ async function generateKdbx() {
     <div class="container">
         <div class="header">
             <div>
-                <div class="title">Bookmarks → KeePassXC (.kdbx)</div>
+                <div class="title">书签转 kdbx</div>
                 <div class="notice">所有处理在本地浏览器完成，不会上传到服务器</div>
             </div>
         </div>
@@ -237,6 +237,7 @@ async function generateKdbx() {
 
         <div class="footer">
             <div class="small">提示：仅保留首次出现的 URL，保留目录结构。</div>
+            <div class="small">网站由 AI 生成并修改。</div>
         </div>
     </div>
 </template>

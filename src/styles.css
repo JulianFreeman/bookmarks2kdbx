@@ -38,30 +38,33 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-bottom: 18px
+    margin-bottom: 24px
 }
 
 .title {
     font-size: 20px;
-    font-weight: 600
+    font-weight: 600;
+    line-height: 1.6;
 }
 
 .notice {
     font-size: 13px;
-    color: var(--muted)
+    color: var(--muted);
+    line-height: 1.5;
 }
 
 .card {
     background: var(--card);
-    padding: 18px;
+    padding: 20px;
     border-radius: 10px;
-    margin-bottom: 14px
+    margin-bottom: 20px
 }
 
 .controls {
     display: flex;
     gap: 12px;
-    flex-wrap: wrap
+    flex-wrap: wrap;
+    line-height: 1.6;
 }
 
 .file-input {
@@ -101,24 +104,27 @@ input[type=file] {
 }
 
 .tree {
-    margin-top: 12px;
-    padding-left: 12px
+    margin-top: 16px;
+    padding-left: 12px;
+    line-height: 1.8;
 }
 
 .folder {
-    margin: 6px 0
+    margin: 8px 0;
+    line-height: 1.6;
 }
 
 .entry {
     font-size: 13px;
-    color: var(--muted)
+    color: var(--muted);
+    line-height: 1.6;
 }
 
 .footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 10px
+    margin-top: 18px
 }
 
 .password {
